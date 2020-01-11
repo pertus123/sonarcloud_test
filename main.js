@@ -3,6 +3,6 @@ function getUrl(url){
 	var result;
 	target = "userName : " + url;
 	target = url.replace(/\/|\=|\:|\s/gi,"");
-	 window.alert(target) 
+	return target;
 }
 getUrl("SonarCloud!");
