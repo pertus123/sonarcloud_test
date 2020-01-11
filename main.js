@@ -5,4 +5,4 @@ function getUrl(url){
 	target = url.replace(/\/|\=|\:|\s/gi,"");
 	return target;
 }
-getUrl("SonarCloud!");
+var id = getUrl("SonarCloud!");
