@@ -1,7 +1,8 @@
-function main() {
-    const condition = true;
-    if(condition && condition) {
-        console.log('hello world!');
-    }
+function getUrl(url){
+	var target;
+	var result;
+	target = url + "userName" + userName;
+	target = url.replace(/\/|\=|\:|\s/gi,"");
+	return target;
 }
-main();
+getUrl();
