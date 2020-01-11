@@ -1,16 +1,16 @@
-search_list = [
-    'Jone', 'Aric', 'Luise', 'Frank', 'Wey'
-    ]
-
-found = False
-
-for s in search_list:
-    if s.startswith('C'):
-        found = True
-        # do something when found
-        print('Found')
-        break
-
-if not found:
-    # do something when not found
-    print('Not found')
+import random
+key0 = []
+while len(key0) <10:
+	while True:
+		candidate = random.randint(0, 9)
+		if candidate in key0:
+			continue
+		key0.append(candidate)
+ 
+key1 = []
+while len(key1) <10:
+	while True:
+		candidate = random.randint(10,19)
+		if candidate in key1:
+			continue
+		key1.append(candidate)
